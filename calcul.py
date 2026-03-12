@@ -1,4 +1,11 @@
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
-c = a + b
-print(f"The sum of {a} and {b} is {c}")
+def addition(a,b):
+    return a+b
+def soustraction(a,b):
+    return a-b
+def multiplication(a,b):
+    return a*b
+def division(a,b):
+    return a/b
+def reste(a,b):
+    return a%b
+
