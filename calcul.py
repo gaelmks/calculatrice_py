@@ -9,3 +9,7 @@ def division(a,b):
 def reste(a,b):
     return a%b
 
+nombre1=float(input(" "))
+nombre2=float(input(" "))
+lista=[]
+listb=[]
