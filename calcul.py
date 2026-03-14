@@ -11,5 +11,16 @@ def reste(a,b):
 
 nombre1=float(input(" "))
 nombre2=float(input(" "))
-lista=[]
-listb=[]
+choix=" "
+if choix=='+':
+    reponse=addition(nombre1,nombre2)
+    print(reponse)
+elif choix=='-':
+    reponse=soustraction(nombre1,nombre2)
+    print(reponse)
+elif choix=='*':
+    reponse=multiplication(nombre1,nombre2)
+    print(reponse)
+elif choix=='/':
+    reponse= division(nombre1,nombre2)
+    print(reponse)
