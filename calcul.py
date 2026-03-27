@@ -47,6 +47,27 @@ class calculatrice(QWidget):
         self.btn6.setText("6")
         self.btn6.setGeometry(200, 400, 100, 100)
 
+        #bouton 7
+        self.btn7=QPushButton(self.win)
+        self.btn7.setText("7")
+        self.btn7.setGeometry(0,500, 100, 100)
+
+        #bouton 8
+        self.btn8=QPushButton(self.win)
+        self.btn8.setText("8")
+        self.btn8.setGeometry(100, 500, 100, 100)
+
+        #bouton 9
+        self.btn9=QPushButton(self.win)
+        self.btn9.setText("9")
+        self.btn9.setGeometry(200, 500, 100, 100)
+
+        #bouton 0
+        self.btn0=QPushButton(self.win)
+        self.btn0.setText("0")
+        self.btn0.setGeometry(100, 600, 100, 100)
+
+
 if __name__=='__main__':
     app=QApplication(sys.argv)
     root=QWidget()
