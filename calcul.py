@@ -28,7 +28,7 @@ class Calculatrice(QWidget):
             ('4', 1, 0), ('5', 1, 1), ('6', 1, 2), ('*', 1, 3),
             ('1', 2, 0), ('2', 2, 1), ('3', 2, 2), ('-', 2, 3),
             ('0', 3, 0), ('.', 3, 1), ('=', 3, 2), ('+', 3, 3),
-            ('C', 4, 0), ('(', 4, 1), (')', 4, 2), ('⌫', 4, 3)
+            ('C', 4, 0), ('(', 4, 1), (')', 4, 2), ('supp', 4, 3)
         ]
 
         for text, row, col in buttons:
@@ -68,7 +68,7 @@ class Calculatrice(QWidget):
         elif text == 'C':
             self.current_expression = ""
             self.display.setText("")
-        elif text == '⌫':
+        elif text == 'supp':
             self.current_expression = self.current_expression[:-1]
             self.display.setText(self.current_expression)
         else:
